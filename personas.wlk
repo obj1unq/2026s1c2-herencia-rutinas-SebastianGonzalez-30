@@ -4,7 +4,8 @@ import gimnasia.*
 class Persona {
   
     var property peso 
-    
+    var property tiempoDeEjercitacion 
+
     method kilosPorCaloria() 
       
     method aplicaARutina(unaRutina) 
@@ -24,7 +25,7 @@ class Persona {
 
 class PersonaSedentaria inherits Persona {
   
-    var property tiempoDeEjercitacion 
+    
 
     override method aplicaARutina(unaRutina) {
       
@@ -95,7 +96,7 @@ class PersonaAtletica inherits Persona {
 
         return 8000
     }
-    method tiempoDeEjercitacion() {
+    override method tiempoDeEjercitacion() {
 
      return 90 
     }

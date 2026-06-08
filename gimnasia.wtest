@@ -1,5 +1,6 @@
 import gimnasia.*
 import personas.*
+import clubesYpredios.*
 
 
 describe "rutinas" {
@@ -64,5 +65,10 @@ test "Calamardo no puede entrenar" {
 	assert.equals(0, calamardo.pesoPerdidoPorAplicarRutinaPor(rutinaCorrerEnLaPlaya, calamardo.tiempoDeEjercitacion()))
 }
 
+test "el mejor predio para una persona" {
+  
+	
+
+}
 
 }
